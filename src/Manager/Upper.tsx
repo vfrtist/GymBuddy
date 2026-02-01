@@ -23,7 +23,6 @@ export default function Upper() {
             </div>
             <UpButton
                 upFunction={toggleOpen}
-                returnFunction={() => setCurrentScene("main")}
             />
         </div>
     );
