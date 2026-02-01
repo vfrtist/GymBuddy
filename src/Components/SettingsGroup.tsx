@@ -6,7 +6,7 @@ export interface SettingsGroupProp {
     name: string;
     children: React.ReactElement<SettingsButtonProps>[];
     activeValue: any;
-    onChange?: (value: any) => void;
+    onChange?: Function;
 }
 
 export default function SettingsGroup({

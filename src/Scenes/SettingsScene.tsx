@@ -20,7 +20,7 @@ export default function SettingsScene() {
                 <SettingsGroup
                     name="Unit"
                     activeValue={settings.weightSystem}
-                    onChange={() => settings.setWeightSystem}
+                    onChange={settings.setWeightSystem}
                 >
                     <SettingsButton value="lbs" caption="Imperial" />
                     <SettingsButton value="kg" caption="Metric" />
@@ -36,7 +36,7 @@ export default function SettingsScene() {
                 <SettingsGroup
                     name="Mode"
                     activeValue={settings.mode}
-                    onChange={() => settings.setMode}
+                    onChange={settings.setMode}
                 >
                     <SettingsButton value="light" caption="Light" />
                     <SettingsButton value="dark" caption="Dark" />
@@ -45,7 +45,7 @@ export default function SettingsScene() {
                 <SettingsGroup
                     name="Visuals"
                     activeValue={settings.visuals}
-                    onChange={() => settings.setVisuals}
+                    onChange={settings.setVisuals}
                 >
                     <SettingsButton value="minimal" caption="Minimal" />
                     <SettingsButton value="detailed" caption="Detailed" />
@@ -54,7 +54,7 @@ export default function SettingsScene() {
                 <SettingsGroup
                     name="Timer"
                     activeValue={settings.showTimer.toString()}
-                    onChange={() => settings.setShowTimer}
+                    onChange={settings.setShowTimer}
                 >
                     <SettingsButton value="on" caption="on" />
                     <SettingsButton value="off" caption="off" />

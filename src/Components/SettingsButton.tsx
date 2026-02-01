@@ -4,7 +4,7 @@ export interface SettingsButtonProps {
     value: string;
     caption: string;
     isActive?: boolean;
-    onClick?: (value: string) => void;
+    onClick?: Function;
 }
 
 export default function SettingsButton({
