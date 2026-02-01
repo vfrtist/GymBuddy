@@ -1,0 +1,12 @@
+#TimerButtons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    place-items: center;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.TimerButton {
+    height: 78px;
+}

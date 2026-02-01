@@ -1,0 +1,52 @@
+.MenuButtons {
+    position: absolute;
+    bottom: 0px;
+    padding: 12px;
+    width: 100%;
+    height: var(--menu-height);
+    display: flex;
+    justify-content: space-evenly;
+    -webkit-user-select: none;
+    user-select: none;
+    align-items: center;
+    background: var(--foreground);
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+.MenuButton {
+    height: 100%;
+    aspect-ratio: 1/1;
+    box-sizing: border-box;
+    transition: transform 0.25s;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+
+    label {
+        font-size: 10pt;
+        font-family: "Zain";
+        font-weight: 400;
+        height: 14px;
+        color: var(--subtext);
+    }
+
+    .Icon {
+        flex: 1;
+        max-width: 30px;
+    }
+
+    &.active {
+        label {
+            color: var(--accent);
+        }
+
+        .Icon {
+            fill: var(--accent);
+        }
+    }
+}

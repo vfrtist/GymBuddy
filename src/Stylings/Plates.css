@@ -1,0 +1,21 @@
+.PlateButton {
+    width: 35px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    color: var(--font-light);
+    font-weight: 800;
+    transition: all 0.2s;
+    filter: drop-shadow(2px 2px 3px var(--shadow));
+}
+
+.PlateButton :last-child {
+    margin-top: 4px;
+}
+
+.Plate {
+    border-radius: 5px;
+    background: white;
+}

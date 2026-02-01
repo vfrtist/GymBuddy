@@ -1,0 +1,43 @@
+.SettingsGroup {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2dvh;
+
+    h3 {
+        width: 48px;
+        font-size: 16px;
+        text-align: right;
+        margin-right: max(8px, 2dvw);
+    }
+
+    .ButtonGroup {
+        display: flex;
+
+        .SettingsButton:first-of-type {
+            border-radius: 12px 0px 0px 12px;
+        }
+
+        .SettingsButton:last-of-type {
+            border-radius: 0px 12px 12px 0px;
+        }
+
+        .SettingsButton {
+            font-size: 14px;
+            background: var(--light-accent);
+            transition: background 0.2s, color 0.2s;
+            padding: 4px 12px;
+            border-radius: 0px;
+            box-shadow: 2px 2px 2px var(--shadow);
+            outline-offset: 4px;
+
+            &:hover {
+                background: var(--accent);
+            }
+
+            &.active {
+                background: var(--accent);
+                color: var(--font-light);
+            }
+        }
+    }
+}

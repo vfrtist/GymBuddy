@@ -1,0 +1,31 @@
+#ReRest {
+    position: absolute;
+    bottom: -9vh;
+    right: 3dvw;
+    gap: 4px;
+    animation: 0.25s forwards pop-in;
+    flex-direction: column;
+    background: var(--foreground);
+
+    &.hidden {
+        animation: none;
+    }
+
+    span {
+        color: var(--accent);
+        font-size: 10pt;
+        margin-bottom: 2px;
+        height: 16px;
+    }
+
+    .Icon {
+        width: 20px;
+        aspect-ratio: 1/1;
+        padding: 8px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 8px var(--shadow);
+        flex: 1;
+        fill: var(--accent);
+        background: var(--foreground);
+    }
+}

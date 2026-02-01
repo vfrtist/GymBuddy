@@ -1,0 +1,32 @@
+#CalculatorScene {
+    flex-direction: column;
+
+    padding: 8dvh 0 4dvh;
+
+    #FindWeightForm {
+        flex-direction: column;
+        height: 40%;
+
+        button {
+            margin-top: 45px;
+            padding: 8px;
+            width: 200px;
+        }
+
+        input {
+            margin: 4px;
+            padding: 3px;
+            border: 1px solid var(--shadow);
+            border-radius: 4px;
+            width: 250px;
+            outline: none;
+
+            &:focus,
+            &:active {
+                outline-color: var(--accent);
+                animation: 0.35s 0.15s forwards bubble;
+                border: none;
+            }
+        }
+    }
+}

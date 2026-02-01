@@ -1,0 +1,41 @@
+#SettingsScene {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+
+    section {
+        height: 50%;
+        text-align: left;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        box-sizing: border-box;
+        min-width: 350px;
+        width: 50dvw;
+
+        * {
+            font-family: "Zain", sans-serif;
+        }
+
+        header {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+
+            h2 {
+                font-family: "Sedgwick Ave Display", cursive;
+            }
+
+            .Icon {
+                width: 30px;
+                margin-right: 12px;
+                fill: var(--light-accent);
+            }
+        }
+
+        .SettingsGroup {
+            margin-left: calc(30px + 1dvw);
+        }
+    }
+}

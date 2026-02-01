@@ -1,0 +1,43 @@
+@keyframes fly-in {
+    0% {
+        translate: 150px;
+    }
+
+    100% {
+        translate: 0px;
+    }
+}
+
+@keyframes bubble {
+    0% {
+        outline-style: solid;
+        outline-width: 1px;
+        outline-offset: -2px;
+    }
+
+    80% {
+        outline-style: solid;
+        outline-width: 3px;
+        outline-offset: 9px;
+    }
+
+    100% {
+        outline-style: solid;
+        outline-width: 2px;
+        outline-offset: 6px;
+    }
+}
+
+@keyframes pop-in {
+    0% {
+        scale: 0.75;
+    }
+
+    80% {
+        scale: 1.15;
+    }
+
+    100% {
+        scale: 1;
+    }
+}

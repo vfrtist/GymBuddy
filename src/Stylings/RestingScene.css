@@ -1,0 +1,34 @@
+#RestingScene {
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    .clock {
+        font-family: "Azeret Mono", monospace;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 30pt;
+    }
+
+    #cancel {
+        font-size: 20px;
+        position: absolute;
+        right: -8px;
+        top: -18px;
+        color: var(--subtext);
+        font-family: "zain", sans-serif;
+        font-weight: 900;
+        background: var(--foreground);
+        width: 30px;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: color 0.2s, box-shadow 0.2s;
+
+        &:hover {
+            color: var(--accent);
+            box-shadow: 2px 2px 8px var(--shadow);
+        }
+    }
+}

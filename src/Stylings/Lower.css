@@ -1,0 +1,11 @@
+#Lower {
+    width: 100%;
+    height: calc(25% - var(--menu-height));
+    justify-content: space-evenly;
+    text-align: center;
+    position: absolute;
+    bottom: var(--menu-height);
+    z-index: 0;
+    box-sizing: border-box;
+    padding: 12px;
+}

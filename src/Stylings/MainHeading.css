@@ -1,0 +1,23 @@
+#MainHeading {
+    flex-wrap: wrap;
+
+    &.stylized {
+        .main {
+            font-family: "Sedgwick Ave Display", cursive;
+        }
+    }
+
+    .subheading {
+        font-size: 36px;
+        color: var(--subtext);
+        height: 45px;
+    }
+
+    .superheading {
+        font-size: 20px;
+        color: var(--subtext);
+        height: 24px;
+        position: relative;
+        left: 50px;
+    }
+}

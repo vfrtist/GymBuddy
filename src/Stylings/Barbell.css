@@ -1,0 +1,38 @@
+#Barbell {
+    flex-direction: row;
+    width: 285px;
+    height: 100px;
+    transition: offset 0.2s;
+
+    .middle {
+        background-color: var(--bar);
+        width: 100%;
+        height: 8px;
+    }
+
+    .BarbellEnd {
+        flex-direction: row;
+        background-color: var(--bar);
+        width: 80px;
+        height: 12px;
+        overflow: visible;
+        display: flex;
+        align-items: center;
+
+        &:first-of-type {
+            transform: rotate(180deg);
+        }
+
+        .Plate {
+            border: 2px solid var(--foreground);
+            animation: 0.2s forwards fly-in;
+            background: var(--accent);
+        }
+
+        .cap {
+            width: 8px;
+            height: 35px;
+            background-color: var(--bar);
+        }
+    }
+}
