@@ -29,3 +29,10 @@
         background: var(--foreground);
     }
 }
+
+[data-mode="dark"] {
+    #ReRest {
+        background: none;
+        box-shadow: none;
+    }
+}
