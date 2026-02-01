@@ -13,7 +13,7 @@ export function loadUserSettings(): UserData {
     const defaults: UserData = {
         weightSystem: "lbs",
         mode: "light",
-        visuals: "default",
+        visuals: "detailed",
         showTimer: "on",
     };
     try {
