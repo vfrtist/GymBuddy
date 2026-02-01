@@ -32,7 +32,7 @@
         .cap {
             width: 8px;
             height: 35px;
-            background-color: var(--bar);
+            background: var(--bar);
         }
     }
 }
