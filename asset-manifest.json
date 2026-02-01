@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/GymBuddy/static/css/main.c19b440b.css",
-    "main.js": "/GymBuddy/static/js/main.03fdb340.js",
+    "main.css": "/GymBuddy/static/css/main.6f299f02.css",
+    "main.js": "/GymBuddy/static/js/main.9da77584.js",
     "index.html": "/GymBuddy/index.html",
-    "main.c19b440b.css.map": "/GymBuddy/static/css/main.c19b440b.css.map",
-    "main.03fdb340.js.map": "/GymBuddy/static/js/main.03fdb340.js.map"
+    "main.6f299f02.css.map": "/GymBuddy/static/css/main.6f299f02.css.map",
+    "main.9da77584.js.map": "/GymBuddy/static/js/main.9da77584.js.map"
   },
   "entrypoints": [
-    "static/css/main.c19b440b.css",
-    "static/js/main.03fdb340.js"
+    "static/css/main.6f299f02.css",
+    "static/js/main.9da77584.js"
   ]
 }
