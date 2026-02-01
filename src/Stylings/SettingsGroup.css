@@ -22,6 +22,7 @@
         }
 
         .SettingsButton {
+            color: var(--font-dark);
             font-size: 14px;
             background: var(--light-accent);
             transition: background 0.2s, color 0.2s;
