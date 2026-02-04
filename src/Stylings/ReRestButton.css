@@ -6,6 +6,7 @@
     animation: 0.25s forwards pop-in;
     flex-direction: column;
     background: var(--foreground);
+    overflow: visible;
 
     &.hidden {
         animation: none;
