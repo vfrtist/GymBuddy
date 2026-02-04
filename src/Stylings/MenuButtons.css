@@ -12,6 +12,7 @@
     background: var(--foreground);
     z-index: 1;
     box-sizing: border-box;
+    animation: 0.3s forwards 0.2s vertical-shake;
 }
 
 .MenuButton {
@@ -49,4 +50,8 @@
             fill: var(--accent);
         }
     }
+}
+
+.open~.MenuButtons {
+    animation: none;
 }

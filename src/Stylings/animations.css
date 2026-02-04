@@ -41,3 +41,20 @@
         scale: 1;
     }
 }
+
+@keyframes vertical-shake {
+    0% {
+        translate: 0;
+        rotate: 0deg;
+    }
+
+    25% {
+        translate: 0 4px;
+        rotate: -0.5deg;
+    }
+
+    100% {
+        translate: 0;
+        rotate: 0deg;
+    }
+}
